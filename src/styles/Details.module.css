@@ -60,6 +60,11 @@
     flex-wrap: wrap;
     grid-area: borders;
 }
+.borders>div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%
+}
 .link2{
     text-decoration: none;
     color: grey;

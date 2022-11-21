@@ -98,11 +98,14 @@ export default function Details(){
                     </div>
                     <div className={styles.borders}>
                         <label >Border Countries:</label>
+                        <div>
                         {
                             borders?.map(e=>{
                                 return <Link to={'/Details/'+e} key={e} className={styles.link}><div>{e}</div></Link>
                             })
                         }
+                        </div>
+                       
                     </div>
             </div>
         }

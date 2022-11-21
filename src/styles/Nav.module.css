@@ -1,0 +1,20 @@
+.container{
+    height: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.569);
+    color: var(--LightModeText);
+}
+.container>h1{
+    font-weight: 800;
+    float: left;
+}
+.container>div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+    float: right;
+}

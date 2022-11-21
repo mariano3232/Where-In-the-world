@@ -1,0 +1,16 @@
+
+
+.select{
+    height: 3.5rem;
+    width: 15rem;
+    outline: none;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.569);
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    color: var(--LightModeText);
+}
+.select>option{
+    font-size: 20px;
+    font-weight: 400;
+}

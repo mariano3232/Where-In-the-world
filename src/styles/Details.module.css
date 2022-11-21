@@ -1,0 +1,85 @@
+.button{
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.569);
+    margin: 3rem;
+    font-size: 20px;
+    width: 10rem;
+    height: 2rem;
+    padding-top: 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: 300ms;
+}
+.button:hover{
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.569);
+}
+.container{
+    overflow: hidden;
+    padding-bottom: 10rem;
+    display: grid;
+    grid-template-areas:
+        "flag  flag info details"
+        "flag  flag info details"
+        "flag  flag borders borders"
+        
+}
+.img{
+    grid-area: flag;
+    width: 35rem;
+    margin: 2rem;
+    margin-left: 3rem;
+}
+.info{
+    font-size: 15px;
+    grid-area: info;
+    width: 17rem;
+    flex-direction: column;
+    padding: 3rem;
+}
+.info>div{
+    margin:10px;
+}
+.info>div>label{
+    font-weight: 600;
+}
+.details{
+    font-size: 15px;
+    padding-top: 5rem;
+    margin-right: 10rem;
+    justify-content: center;
+    grid-area: details;
+    flex-direction: column;
+}
+.details>div{
+    margin:10px;
+}
+.details>div>label{
+    font-weight: 600;
+}
+.borders{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: borders;
+}
+.link2{
+    text-decoration: none;
+    color: grey;
+}
+.link{
+    text-decoration: none;
+    color: grey;
+}
+.link>div{
+    border-radius: 3px;
+    font-size: 15px;
+    width: 8rem;
+    height: 3rem;
+    margin: 2px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.569);
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 1rem;
+    transition:300ms;
+}
+.link>div:hover{
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.569);
+}

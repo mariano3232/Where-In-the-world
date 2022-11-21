@@ -1,0 +1,9 @@
+:root {
+  --DarkModeElements:hsl(209, 23%, 22%);
+  --DarkModeBackground:hsl(207, 26%, 17%);
+  --LightModeText:green;
+  --LightModeInput:hsl(0, 0%, 52%);
+  --LightModeBackground: hsl(0, 0%, 98%);
+  /* Dark Mode Text & Light Mode Elements : */
+  --White: hsl(0, 0%, 100%);
+}

@@ -13,7 +13,7 @@ export default function({countries,setCountries}){
 
     return(
         <div>
-            <select name="Filter By Region" id="" className={styles.select} onChange={(e)=>{handleChange(e)}}>
+            <select name="FilterByRegion" id="selectRegion" className={styles.select} onChange={(e)=>{handleChange(e)}}>
                 <option value='none'>Filter By Region</option>
                 <option value="Africa">Africa</option>
                 <option value="Americas">Americas</option>

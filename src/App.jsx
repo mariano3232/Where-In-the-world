@@ -17,7 +17,6 @@ function App() {
   }
 
   useEffect(()=>{
-    document.documentElement.setAttribute('data-theme', 'light');
     getCoutries().then(res=>{
       setCountries(res)
       setAllCountries(res)

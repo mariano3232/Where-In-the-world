@@ -2,7 +2,7 @@ import { Link, useNavigate, useParams} from "react-router-dom";
 import axios from 'axios'
 import { useEffect } from "react";
 import { useState } from "react";
-import styles from '../styles/Details.module.css'
+import styles from '../styles/Details.module.scss'
 import Nav from "./Nav";
 
 export default function Details(){

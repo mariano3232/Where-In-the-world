@@ -7,6 +7,7 @@
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.569);
     border: none;
     background-color: white;
+    transition: 1s;
 }
 .input{
     float: right;
@@ -18,10 +19,32 @@
     color: var(--LightModeInput);
 }
 .icon{
-    color: grey;
+    color: black;
     z-index: 9;
     position: absolute;
     left:0.5rem;
     top:0.6rem;
     width: 2rem;
+}
+
+@media(max-width:800px){
+    .container{
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+    .input{
+        width: 80%;
+    }
+  }
+  [data-theme="dark"]{
+    .container{
+        background-color: var(--DarkModeElements);
+        color: white;
+    }
+    .input{
+        color: white;
+    }
+    .icon{
+        color: white;
+    }
 }

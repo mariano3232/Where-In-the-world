@@ -1,5 +1,5 @@
 import { useEffect,useState } from "react"
-import styles from "../styles/SearchBar.module.css"
+import styles from "../styles/SearchBar.module.scss"
 import lupa from "../assets/search-outline.svg"
 export default function SearchBar({countries,setCountries}){
 

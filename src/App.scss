@@ -1,0 +1,28 @@
+#root {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: hsl(0, 0%, 98%);
+  transition: 1s;
+}
+.searchSelect{
+  display: flex;
+  width: 93%;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 5rem;
+}
+@media (max-width:800px){
+  .searchSelect{
+    flex-direction: column;
+  }
+}
+  [data-theme="dark"] {
+   #root {
+        background-color: var(--DarkModeBackground)
+    }
+   }
+  
+

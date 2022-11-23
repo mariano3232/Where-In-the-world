@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import axios from 'axios'
 import { useEffect,useState } from 'react'
 import DisplayCards from './components/DisplayCards'
@@ -17,6 +17,7 @@ function App() {
   }
 
   useEffect(()=>{
+    document.documentElement.setAttribute('data-theme', 'light');
     getCoutries().then(res=>{
       setCountries(res)
       setAllCountries(res)
@@ -33,7 +34,7 @@ function App() {
         <SearchBar countries={allCountries} setCountries={setCountries}/>
         <Select countries={allCountries} setCountries={setCountries}/>
       </div>
-      <DisplayCards countries={countries}/>
+      <DisplayCards countries={countries}/> 
     </div>
   )
 }

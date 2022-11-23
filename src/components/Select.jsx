@@ -1,4 +1,4 @@
-import styles from '../styles/Select.module.css'
+import styles from '../styles/Select.module.scss'
 
 export default function({countries,setCountries}){
 

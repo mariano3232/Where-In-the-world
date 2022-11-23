@@ -9,8 +9,23 @@
     background-color: white;
     font-weight: 600;
     color: var(--LightModeText);
+    transition: 1s;
 }
 .select>option{
     font-size: 20px;
     font-weight: 400;
+}
+@media (max-width:800px){
+    .select{
+        width: 60%;
+    }
+    .select>option{
+        font-size: 15px;
+    }
+}
+[data-theme="dark"]{
+    .select{
+        background-color: var(--DarkModeElements);
+        color: white;
+    }
 }

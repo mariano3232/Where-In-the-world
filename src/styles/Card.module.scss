@@ -45,3 +45,13 @@
         width: 16rem;
     }
 }
+[data-theme="dark"]{
+    .container{
+        transition: 1s;
+        background-color: var(--DarkModeElements);
+        color:white
+    }
+    .name{
+        color: white;
+    }
+}

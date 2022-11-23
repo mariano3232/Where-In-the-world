@@ -21,9 +21,9 @@ export default function Nav(){
     return(
     <div className={styles.container}>
         <h1>Where in the world</h1>
-        <div>
+        <div onClick={()=>changeTheme()}>
             <img src={luna} alt="moonIcon" width='20px' />
-            <h3 onClick={()=>changeTheme()}>Dark Mode</h3>
+            <h3 >Dark Mode</h3>
         </div>
     </div>
     )

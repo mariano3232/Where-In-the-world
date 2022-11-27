@@ -14,4 +14,4 @@ Responsive Single page application consuming data from Rest countries API.
     <p>●JavaScript</p>
     <p>●React</p>
     <p>●SASS</p>
-    <a href="https://where-in-the-world-lyart.vercel.app/">Visit the app</a>
+    <a href="https://where-in-the-world-lyart.vercel.app/" target="blanck">Visit the app</a>

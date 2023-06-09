@@ -11,13 +11,13 @@ function App() {
   let [countries,setCountries]=useState([])
   let [allCountries,setAllCountries]=useState([])
 
-  const getCoutries=async ()=>{
+  const getCountries = async ()=>{
     let res=await axios.get('https://restcountries.com/v2/all?fields=flags,name,region,population,capital')
     return res.data;
   }
 
   useEffect(()=>{
-    getCoutries().then(res=>{
+    getCountries().then(res=>{
       setCountries(res)
       setAllCountries(res)
     }).catch(err=>{
